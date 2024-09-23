@@ -1,4 +1,4 @@
-obj\Debug\net8.0\Protos/Myservice.cs \
-obj\Debug\net8.0\Protos/MyserviceGrpc.cs: C:/Users/amro7/.nuget/packages/grpc.tools/2.66.0/build/native/include/google/protobuf/timestamp.proto\
+obj\Debug\net8.0/Myservice.cs \
+obj\Debug\net8.0/MyserviceGrpc.cs: C:/Users/amro7/.nuget/packages/grpc.tools/2.66.0/build/native/include/google/protobuf/timestamp.proto\
  Protos/models.proto\
  Protos/myservice.proto

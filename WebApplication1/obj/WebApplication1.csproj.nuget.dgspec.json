@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[2.66.0, )"
             },
+            "Grpc.AspNetCore.Server.Reflection": {
+              "target": "Package",
+              "version": "[2.66.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

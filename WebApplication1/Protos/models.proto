@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "WebApplication1.Protos";
+
+import "google/protobuf/timestamp.proto";
+
+
+message Reqmessage {
+	int32 id = 1;
+	int32 speed = 2;
+	Location location = 3;
+	google.protobuf.Timestamp time =4;
+	repeated Sensor sensors=5;
+}
+
+
+message Location{
+	double lat = 1;
+	double lang = 2;
+}
+
+
+message ResMessage{
+	bool success = 1;
+}
+
+message Sensor{
+	string key=1;
+	int32 value=2;
+}

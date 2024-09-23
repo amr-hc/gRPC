@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "WebApplication1.Protos";
+
+
+import "models.proto";
+
+
+service myservice{
+	rpc SendMessage (Reqmessage) returns (ResMessage);
+}
+
+
+

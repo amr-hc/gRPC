@@ -37,3 +37,6 @@ C:\Users\amro7\Desktop\training Csharp\gRPC\WebApplication1\bin\Debug\net8.0\Grp
 C:\Users\amro7\Desktop\training Csharp\gRPC\WebApplication1\bin\Debug\net8.0\Grpc.Net.Client.dll
 C:\Users\amro7\Desktop\training Csharp\gRPC\WebApplication1\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Users\amro7\Desktop\training Csharp\gRPC\WebApplication1\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\amro7\Desktop\training Csharp\gRPC\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\amro7\Desktop\training Csharp\gRPC\WebApplication1\bin\Debug\net8.0\Grpc.AspNetCore.Server.Reflection.dll
+C:\Users\amro7\Desktop\training Csharp\gRPC\WebApplication1\bin\Debug\net8.0\Grpc.Reflection.dll

@@ -13,12 +13,13 @@
 
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.66.0" />
+    <PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.66.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\models.proto" />
-    <Protobuf Include="Protos\myservice.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\models.proto" ProtoRoot="Protos\"/>
+    <Protobuf Include="Protos\myservice.proto" GrpcServices="Server" ProtoRoot="Protos\"/>
   </ItemGroup>
 
 </Project>
